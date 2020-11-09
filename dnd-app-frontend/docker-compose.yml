@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dnd-app-frontend:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - '8080:8080'
+    env_file:
+      - development.env
+    volumes:
+      - ./:/dnd-app-frontend

@@ -1,0 +1,8 @@
+node_modules
+.vscode
+npm-debug*
+Dockerfile
+README.md
+.nyc_output
+.git
+.nuxt

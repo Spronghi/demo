@@ -1,0 +1,59 @@
+[
+  {
+    "name": "feats.ninphs_kiss.name",
+    "description": "feats.ninphs_kiss.description",
+    "characters": [
+      "5fa5579da33a0e7784b0e918"
+    ],
+    "effects": [
+      {
+        "target": "checks.cha",
+        "type": "untyped",
+        "value": "2",
+        "is": [
+          "increment"
+        ]
+      },
+      {
+        "target": "character.stats.cha",
+        "type": "untyped",
+        "value": "2",
+        "is": [
+          "increment"
+        ]
+      },
+      {
+        "target": "savingThrows",
+        "type": "untyped",
+        "value": "1",
+        "is": [
+          "increment"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "feats.quick_draw.name",
+    "description": "feats.quick_draw.description",
+    "characters": [
+      "5fa5579da33a0e7784b0e918"
+    ],
+    "effects": []
+  },
+  {
+    "name": "feats.wild_cohort.name",
+    "description": "feats.wild_cohort.description",
+    "characters": [
+      "5fa5579da33a0e7784b0e918"
+    ],
+    "effects": []
+  },
+  {
+    "name": "feats.mounted_combact.name",
+    "description": "feats.mounted_combact.description",
+    "characters": [
+      "5fa5579da33a0e7784b0e918"
+    ],
+    "effects": []
+  }
+]

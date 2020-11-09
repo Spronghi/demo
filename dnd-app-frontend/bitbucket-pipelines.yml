@@ -1,0 +1,23 @@
+image: node:10.15.0
+clone:
+  depth: full
+pipelines:
+  branches:
+    master:
+      - step:
+          name: install and test
+          caches:
+            - node
+          script:
+            - npm install
+            - npm test
+      - step:
+          name: Push docker image to the Heroku
+          deployment: staging
+          services:
+            - docker
+          script:
+            - curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+            - heroku container:login
+            - heroku container:push web -a $HEROKU_APP_NAME
+            - heroku container:release web -a $HEROKU_APP_NAME

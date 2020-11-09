@@ -1,0 +1,31 @@
+{
+  "name": "feats.ninphs_kiss.name",
+  "description": "feats.ninphs_kiss.description",
+  "characters": ["5e8173eba0d1fb03985a499e"],
+  "effects": [
+    {
+      "target": "checks.cha",
+      "type": "circumstance",
+      "value": 2,
+      "formula": "target+value",
+      "against": [],
+      "is": ["increment"]
+    },
+    {
+      "target": "level.skills",
+      "type": "untyped",
+      "value": 1,
+      "formula": "target+value",
+      "against": [],
+      "is": ["increment"]
+    },
+    {
+      "target": "savingThrows",
+      "type": "untyped",
+      "value": 1,
+      "formula": "target+value",
+      "against": ["spells"],
+      "is": ["increment"]
+    }
+  ]
+}

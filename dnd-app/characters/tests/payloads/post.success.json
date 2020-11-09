@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "level": 1,
+  "age": 40,
+  "sex": "M",
+  "languages": [
+      "common"
+  ],
+  "hitPoint": 4,
+  "skills": []
+}

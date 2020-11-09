@@ -1,0 +1,240 @@
+{
+  "dnd-app-frontend": "D&D 3.5 for engineers",
+  "dnd-app-description": "the ultimate app for D&D 3.5",
+  "mod": {
+    "str": "STR",
+    "int": "INT",
+    "dex": "DEX",
+    "cha": "CHA"
+  },
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "english": "English version",
+    "french": "French version"
+  },
+  "level": {
+    "table": "Table"
+  },
+  "class": {
+    "title": "Class",
+    "description": "A fantastic page for a fantastic class!",
+    "hit_die": "Hit die",
+    "skill_points": "Skill points",
+    "proficiency": {
+      "a": "A",
+      "with": "is proficient with",
+      "simple_weapons" : "Simple Weapons",
+      "martial_weapons" : "Martial Weapons",
+      "heavy_armor" : "Heavy Armor",
+      "medium_armor" : "Medium Armor",
+      "light_armor" : "Light Armor",
+      "shields" : "Shields"
+    }
+  },
+  "class_list": {
+    "actions": "Actions",
+    "hit_die": "Hit die",
+    "levels": "Levels",
+    "name": "Name",
+    "skill_points": "Skill points"
+  },
+  "classes": {
+    "title": "Class List",
+    "description": "A fantastic page to show you the classes",
+    "class_features": "Class Features", 
+    "skills": "Class skills",
+    "fighter": {
+      "name": "Fighter",
+      "bonus_fighter_feat": {
+        "name": "Fighter bonus feat",
+        "description": "At 1st level, a fighter gets a bonus combat-oriented feat in addition to the feat that any 1st-level character gets and the bonus feat granted to a human character. The fighter gains an additional bonus feat at 2nd level and every two fighter levels thereafter (4th, 6th, 8th, 10th, 12th, 14th, 16th, 18th, and 20th). These bonus feats must be drawn from the feats noted as fighter bonus feats on Table 5?1: Feats (page 90). A fighter must still meet all prerequisites for a bonus feat, including ability score and base attack bonus minimums. (See Chapter 5: Feats for descriptions of feats and their prerequisites.) \n\nThese bonus feats are in addition to the feat that a character of any class gets from advancing levels (see Table 32: Experience and Level-Dependent Benefits, page 22). A fighter is not limited to the list of fighter bonus feats when choosing these feats."
+      }
+    }
+  },
+  "skills": {
+    "craft" : "Craft",
+    "appraise" : "Appraise",
+    "balance" : "Balance",
+    "bluff" : "Bluff",
+    "climb" : "Climb",
+    "concentration" : "Concentration",
+    "decipher_script" : "Decipher Script",
+    "diplomacy" : "Diplomacy",
+    "disable_device" : "Disable Device",
+    "disguise" : "Disguise",
+    "escape_artist" : "Escape Artist",
+    "forgery" : "Forgery",
+    "gather_information" : "Gather Information",
+    "handle_animal" : "Handle Animal",
+    "heal" : "Heal",
+    "hide" : "Hide",
+    "intimidate" : "Intimidate",
+    "jump" : "Jump",
+    "listen" : "Listen",
+    "move_silently" : "Move Silently",
+    "ride" : "Ride",
+    "search" : "Search",
+    "sense_motive" : "Sense Motive",
+    "sleight_of_hand" : "Sleight of Hand",
+    "spellcraft" : "Spellcraft",
+    "spot" : "Spot",
+    "survival" : "Survival",
+    "swim" : "Swim",
+    "tumble" : "Tumble",
+    "use_magic_device" : "Use Magic Device",
+    "use_rope" : "Use Rope",
+    "wild_empathy" : "Wild Empathy",
+    "knowledge_arcana" : "Knowledge Arcana",
+    "knowledge_architecture_and_engineering" : "Knowledge Architecture and Engineering",
+    "knowledge_dungeon" : "Knowledge Dungeon",
+    "knowledge_geography" : "Knowledge Geography",
+    "knowledge_history" : "Knowledge History",
+    "knowledge_local" : "Knowledge Local",
+    "knowledge_nature" : "Knowledge Nature",
+    "knowledge_nobility_and_royalty" : "Knowledge Nobility and Royalty",
+    "knowledge_religion" : "Knowledge Religion",
+    "knowledge_planes" : "Knowledge Planes",
+    "perform_act" : "Perform Act",
+    "perform_comedy" : "Perform Comedy",
+    "perform_dance" : "Perform Dance",
+    "perform_keyboard_instruments" : "Perform Keyboard Instruments",
+    "perform_oratory" : "Perform Oratory",
+    "perform_percussion_instruments" : "Perform Percussion Instruments",
+    "perform_string_instruments" : "Perform String Instruments",
+    "perform_wind_instruments" : "Perform Wind Instruments",
+    "perform_sing" : "Perform Sing",
+    "autohypnosis" : "Autohypnosis",
+    "knowledge_psionics" : "Knowledge Psionics",
+    "psicraft" : "Psicraft",
+    "use_psionic_device" : "Use Psionic Device",
+    "martial_lore" : "Martial Lore",
+    "iaijutsu_focus" : "Iaijutsu Focus",
+    "truespeak" : "Truespeak",
+    "craft_armorsmithing" : "Craft Armorsmithing",
+    "craft_blacksmithing" : "Craft Blacksmithing",
+    "craft_bowmaking" : "Craft Bowmaking",
+    "craft_calligraphy" : "Craft Calligraphy",
+    "craft_carpentry" : "Craft Carpentry",
+    "craft_drawing" : "Craft Drawing",
+    "craft_gemcutting" : "Craft Gemcutting",
+    "craft_leatherworking" : "Craft Leatherworking",
+    "craft_locksmithing" : "Craft Locksmithing",
+    "craft_painting" : "Craft Painting",
+    "craft_poisonmaking" : "Craft Poisonmaking",
+    "craft_pottery" : "Craft Pottery",
+    "craft_sculpture" : "Craft Sculpture",
+    "craft_shipmaking" : "Craft Shipmaking",
+    "craft_stonecarving" : "Craft Stonecarving",
+    "craft_stonemasonry" : "Craft Stonemasonry",
+    "craft_trapmaking" : "Craft Trapmaking",
+    "craft_weaponsmithing" : "Craft Weaponsmithing",
+    "craft_weaving" : "Craft Weaving",
+    "craft_woodcarving" : "Craft Woodcarving",
+    "profession_gambler" : "Profession gambler",
+    "profession_herbalist" : "Profession herbalist",
+    "profession_siege_engineer" : "Profession siege engineer"    
+  },
+  "home": {
+    "title": "Home",
+    "classes": "Classes",
+    "description": "You fantastic home page! There will be deplayed your last actions and a sort of auto-made characters that you would like, or maybe some item that can be usefull for one of your character!",
+    "welcome": "Welcome",
+    "feats": "Feats",
+    "characters": "Characters",
+    "inspire": "Inspire"
+  },
+  "minimized": {
+    "title": "Pinned"
+  },
+  "inspire": {
+    "title": "First, solve the problem. Then, write the code."
+  },
+  "increment": {
+    "bonus": "bonus",
+    "against": "against"
+  },
+  "character_list": {
+    "title": "Characters",
+    "description": "Your characters"
+  },
+  "character": {
+    "title": "Character",
+    "description": "A fantastic page made for your character!",
+    "level": "Level",
+    "age": "Age",
+    "sex": "Sex",
+    "languages": "Languages",
+    "hit_point": "Hit Points",
+    "feats": {
+      "title": "Feats",
+      "effects": "Effects",
+      "effect": "Effect"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "checks": {
+      "title": "Checks",
+      "charisma": "Charisma",
+      "dexterity": "Dexterity",
+      "constitution": "Constitution",
+      "saving_throws": "Saving Throws"
+    },
+    "stats": {
+      "title": "Stats",
+      "str": "STR",
+      "int": "INT",
+      "con": "CON",
+      "dex": "DEX",
+      "wis": "WIS",
+      "cha": "CHA"
+    }
+  },
+  "feats": {
+    "title": "Feats",
+    "description": "Your feats",
+    "ninphs_kiss": {
+      "name": "Ninph's Kiss",
+      "description": "By maintaining an intimate relationship with a good-aligned fey (such as a nymph or dryad), you gain some of the characteristics of fey."
+    },
+    "quick_draw":{
+      "name": "Quick Draw",
+      "description": "You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the Sleight of Hand skill, page 81) as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow)."
+    },
+    "wild_cohort":{
+      "name": "Wild Cohort",
+      "description": "You gain an animal cohort. The animal cohort is generally friendly to you and is willing to follow you and adventure with you. If given proper training, the animal cohort will willingly serve as your mount, guardian, and companion. (see the description of the Handle Animal skill for more details on training animals.). You can use the Handle Animal skill on your animal cohort as a move action rather than as a standard action, and you gain a +2 bonus on all Handle Animal checks made to direct or influence your animal cohort.. Provided the DM gives her approval, at 1st level you can choose from a badger, camel, dire rat, dog, riding dog, eagle, hawk, horse (light or heavy), owl, pony, snake (Small or Medium viper), or wolf. Like a druid, you can choose more powerful animals as you increase in level. These alternative animal cohorts work like the alternative animal companions available to a druid, but they are available as cohorts later than they are available as animal companions.. When selecting an alternative animal cohort, use the list of alternative animal companions, but treat yourself as a druid three levels lower than your character level. For example, once you reach 7th level, you can choose an animal cohort off the list of animal companions available to a 4th-level druid. "
+    },
+    "mounted_combact":{
+      "name": "Mounted Combact",
+      "description": "Once per round when your mount is hit in combat, you may attempt a Ride check (as a reaction) to negate the hit. The hit is negated if your Ride check result is greater than the opponent’s attack roll. (Essentially, the Ride check result becomes the mount’s Armor Class if it’s higher than the mount’s regular AC.) "
+    }
+  },
+  "effects": {
+    "character": {
+      "stats": {
+        "cha": "Base Charisma",
+        "dex": "Base Dexterity"
+      }
+    },
+    "checks": {
+      "cha": "Charisma checks",
+      "dex": "Dexterity checks"
+    },
+    "level": {
+      "skills": "Skill point per level"
+    },
+    "skills": {
+      "move_silently": "Move Silently",
+      "hide": "Hide"
+    },
+    "savingThrows": "Saving throws"
+  },
+  "error": {
+    "end": "Consider to return on ",
+    "home": "home",
+    "not_found": "Oops! It seems a not found error, a level 9 bard is working on it.",
+    "general": "Oops! It seems a not found error, a level 13 bard is working on it."
+  }
+}

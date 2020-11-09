@@ -1,0 +1,108 @@
+{
+  "name": "Eldor",
+  "level": 7,
+  "age": 43,
+  "sex": "M",
+  "languages": [
+    "common",
+    "halfling"
+  ],
+  "hitPoint": 24,
+  "stats": {
+    "str": 12,
+    "dex": 17,
+    "con": 10,
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "skills": [
+    {
+      "value": 15,
+      "name": "move_silently",
+      "mod": "dex",
+      "repeat": false,
+      "untrained": false,
+      "trained": true,
+      "armorPenality": true,
+      "combact": true
+    },
+    {
+      "value": 15,
+      "name": "ride",
+      "mod": "dex",
+      "repeat": true,
+      "untrained": false,
+      "trained": true,
+      "armorPenality": true,
+      "combact": true
+    },
+    {
+      "value": 15,
+      "name": "listen",
+      "mod": "wis",
+      "repeat": false,
+      "untrained": false,
+      "trained": true,
+      "armorPenality": true,
+      "combact": true
+    },
+    {
+      "value": 15,
+      "name": "hide",
+      "mod": "dex",
+      "repeat": false,
+      "untrained": false,
+      "trained": true,
+      "armorPenality": true,
+      "combact": true
+    },
+    {
+      "value": 5,
+      "name": "escape_artist",
+      "mod": "dex",
+      "repeat": true,
+      "untrained": true,
+      "trained": false,
+      "armorPenality": true,
+      "combact": true
+    },
+    {
+      "value": 21,
+      "name": "handle_animal",
+      "mod": "dex",
+      "repeat": true,
+      "untrained": false,
+      "trained": true,
+      "armorPenality": false,
+      "combact": true
+    },
+    {
+      "value": 7,
+      "name": "wild_empathy",
+      "mod": "cha",
+      "repeat": false,
+      "untrained": false,
+      "trained": true,
+      "armorPenality": false,
+      "combact": false
+    },
+    { "value": 21, "name": "spot", "mod": "wis", "repeat": false, "untrained": false, "trained": true, "armorPenality": false, "combact": false },
+    { "value": 3, "name": "knowledge_arcana", "mod": "int" },
+    { "value": 10, "name": "knowledge_dungeon", "mod": "int" },
+    { "value": 1, "name": "knowledge_history", "mod": "int" },
+    { "value": 2, "name": "knowledge_local", "mod": "int" },
+    { "value": 17, "name": "knowledge_nature", "mod": "int" },
+    { "value": 10, "name": "knowledge_religion", "mod": "int" },
+    { "value": 15, "name": "knowledge_planes", "mod": "int" },
+    { "value": -1, "name": "intimidate", "mod": "cha" },
+    { "value": 7, "name": "balance", "mod": "dex" },
+    { "value": -1, "name": "diplomacy", "mod": "cha" },
+    { "value": 4, "name": "climb", "mod": "dex" },
+    { "value": 4, "name": "autohypnosis", "mod": "int" },
+    { "value": 12, "name": "survival", "mod": "con" },
+    { "value": 12, "name": "use_magic_device", "mod": "cha" },
+    { "value": 10, "name": "jump", "mod": "dex" },
+    { "value": 4, "name": "spellcraft", "mod": "int" }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "name": "classes.fighter.name",
+  "description": "classes.fighter.description",
+  "hitDie": 10,
+  "skillPoints": 2,
+  "characters": [],
+  "proficiency": [
+  	"simple_weapons",
+  	"martial_weapons",
+  	"heavy_armor",
+  	"medium_armor",
+  	"light_armor",
+  	"shields"
+  ],
+  "skills": [
+  	{
+  		"name": "skills.climb",
+  		"mod": "str",
+  		"trained": true,
+  		"armorPenality": true
+    },
+    {
+  		"name": "skills.craft",
+  		"mod": "int",
+  		"trained": false
+    },
+    {
+  		"name": "skills.handle_animal",
+  		"mod": "cha",
+  		"trained": true
+    },
+    {
+  		"name": "skills.intimidate",
+  		"mod": "cha",
+  		"trained": false
+    },
+    {
+  		"name": "skills.jump",
+  		"mod": "str",
+  		"trained": false,
+  		"armorPenality": true
+  	},
+    {
+  		"name": "skills.ride",
+  		"mod": "dex",
+  		"trained": false
+  	},
+    {
+  		"name": "skills.swim",
+  		"mod": "str",
+  		"trained": false,
+  		"armorPenality": true
+  	}
+  ],
+  "levels": [
+    {
+      "value": 1,
+      "bab": 1,
+      "fort": 2,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 2,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 3,
+      "bab": 1,
+      "ref": 1,
+      "will": 1
+    },
+    {
+      "value":4,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 5,
+      "bab": 1
+    },
+    {
+      "value": 6,
+      "bab": 1,
+      "will": 1,
+      "ref": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 7,
+      "bab": 1
+    },
+    {
+      "value": 8,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 9,
+      "bab": 1,
+      "ref": 1,
+      "will": 1
+    },
+    {
+      "value": 10,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 11,
+      "bab": 1
+    },
+    {
+      "value": 12,
+      "bab": 1,
+      "fort": 1,
+      "will": 1,
+      "ref": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 13,
+      "bab": 1
+    },
+    {
+      "value": 14,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 15,
+      "bab": 1,
+      "ref": 1,
+      "will": 1
+    },
+    {
+      "value": 16,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 17,
+      "bab": 1
+    },
+    {
+      "value": 18,
+      "bab": 1,
+      "will": 1,
+      "ref": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    },
+    {
+      "value": 19,
+      "bab": 1
+    },
+    {
+      "value": 20,
+      "bab": 1,
+      "fort": 1,
+      "choises": [
+        {
+          "name": "classes.fighter.bonus_fighter_feat.name",
+          "description": "classes.fighter.bonus_fighter_feat.description",
+          "type": "bonus_fighter_feat"
+        }
+      ]
+    }
+  ]
+}

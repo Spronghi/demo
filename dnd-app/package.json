@@ -1,0 +1,43 @@
+{
+  "name": "dnd-app",
+  "version": "1.11.0",
+  "description": "a dnd app",
+  "main": "index.js",
+  "scripts": {
+    "start": "fastify start index.js --watch --address 0.0.0.0 --log-level debug",
+    "lint": "standard | snazzy",
+    "fix-lint": "standard --fix | snazzy --fix",
+    "tests": "tap */tests/index.js --no-coverage",
+    "test": "npm run lint && env-cmd -f staging.env npm run tests"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Spronghi@bitbucket.org/dndappteam/dnd-app.git"
+  },
+  "author": "Colaci Simone",
+  "license": "MIT",
+  "dependencies": {
+    "env-cmd": "10.1.0",
+    "env-schema": "1.1.0",
+    "fastify": "latest",
+    "fastify-cli": "1.4.0",
+    "fastify-cors": "3.0.1",
+    "fastify-jwt": "1.2.1",
+    "fastify-plugin": "1.6.0",
+    "fastify-swagger": "2.5.0",
+    "mongodb": "3.5.3",
+    "redis": "3.0.2"
+  },
+  "devDependencies": {
+    "husky": "4.2.1",
+    "snazzy": "8.0.0",
+    "standard": "14.3.1",
+    "tap": "14.10.6"
+  }
+}
