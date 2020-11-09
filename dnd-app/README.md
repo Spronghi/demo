@@ -58,7 +58,7 @@ To run test suite
  - [suite.js](./suite.js)
  - [fastify-redis](./fastify-redis/index.js)
  - [fastify-mongodb](./fastify-mongodb/index.js)
- - [characters/config](./characters/config.js)
+ - [characters/configs](./characters/configs.js)
  - [characters/decorate](./characters/decorate.js)
  - [characters/dependencies](./characters/dependencies.js)
  - [characters/handlers](./characters/handlers.js)
